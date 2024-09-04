@@ -99,8 +99,26 @@ justify-content: flex-start;
 .sidebar li {
     width: 100%;
 }
-
 .sidebar a {
     width: 100%;
 }
 
+.mb {
+    displaY: none;
+}
+
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+.mb {
+    display: block;
+}
+
+@media(max-width: 400px) {
+    .sidebar{
+        width: 100%;
+    }
+}
